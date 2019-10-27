@@ -1,0 +1,10 @@
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary
+  .container
+    a.navbar-brand(href='#') Sample Page
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarNavAltMarkup', aria-controls='navbarNavAltMarkup', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarNavAltMarkup.collapse.navbar-collapse
+      .navbar-nav
+        a.nav-item.nav-link(href='/', class=pageName === 'home' && 'active') Home 
+        a.nav-item.nav-link(href='/about', class=pageName === 'about' && 'active') About
+        a.nav-item.nav-link(href='/contact' class=pageName === 'contact' && 'active') Contact
